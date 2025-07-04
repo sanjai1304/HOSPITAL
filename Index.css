@@ -57,7 +57,7 @@ h2{
     font-weight: 20;
 }
 
-/*table{ 
+table{ 
     align-items: center;
     text-align: center;
     padding: 5px;
@@ -75,7 +75,7 @@ select{
 
 select:hover{
     background-color: rgb(209, 228, 245) ;
-}*/
+}
 
 footer p{
     font-size: large;
