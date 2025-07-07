@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Doctor Registration</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+        <style>
+            body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height:80dvh;
+            background-color: #fff;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            padding: 0px;
+            
+            }
+        </style>
+    </head>
+    
+    <body>
+       
+        
+
+        <div class="main"> 
+        <form>
+          <table>
+            <h2>Login Page</h2><hr>
+            <div>
+            <tr>
+                <td><p>If you are new please fill your details:  </p>
+                <lable>
+                        <button onclick="location.href='Personal_Details.html'">Personal Details</button>
+                    </lable>  
+
+                    <lable>
+                        <button onclick="location.href='Education_Details.html'">Education Details</button>
+                    </lable>
+
+                    <lable>
+                        <button onclick="location.href='Work_Experience.html'">Work Experience</button>
+                    </lable>
+
+                    <lable>
+                        <button onclick="location.href='Doctor_Login.html'">Login Page</button>
+                    </lable>
+            </tr>
+          </div>
+            <tr>       
+                <td> <label for="username">Username:</label></td>
+                <td><input type="text" id="username" name="username"></td>
+            </tr>
+
+
+            <tr>
+                <td><label for="pass">Password:</label></td>
+                <td><input type="password" id="pass"minlength="8" required=""></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <td> <lable>
+                        <button>Sign in</button>
+                    </lable></td>
+                
+                    <td> <lable>
+                        <button >Forgot Password</button>
+                    </lable></td>
+                </td>
+            </tr>
+        
+            
+
+            </table>
+        </form>
+       </div>
+    </body>
+</html>
