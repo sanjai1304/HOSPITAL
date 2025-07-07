@@ -1,0 +1,110 @@
+<!<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+
+        <style>
+           body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height:80dvh;
+            background-color: #fff;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            padding: 50px
+            
+            }
+        </style>
+    </head>
+    
+    <body>
+        <form>
+            <table>
+                <div>
+                    <div class="nav">
+
+                    <lable>
+                        <button onclick="window.location.href='Personal_Details.html'">Personal Details</button>
+                    </lable>  
+
+                    <lable>
+                        <button onclick="window.location.href='Education_Details.html'">Education Details</button>
+                    </lable>
+
+                    <lable>
+                        <button onclick="window.location.href='Work_Experience.html'">Work Experience</button>
+                    </lable>
+
+                    <lable>
+                        <button onclick="window.location.href='Doctor_Login.html'">Login Page</button>
+                    </lable>
+                   
+                  </div>
+                   <h2>Work Experience</h2><hr>
+                  <tr>
+                    <td>Hospital/Clinic Name</td>
+                    <td><input type="text" name="hospital_name" required></td>
+                  </tr>
+
+                  <tr>
+                    <td>Position/Designation</td>
+                    <td><input type="text" name="position" required></td>
+                  </tr>
+
+                  <tr>
+                    <td>Specialization</td>
+                    <td><input type="text" name="specialization" required></td>
+                  </tr>
+
+                  <tr>
+                    <td>Start Date</td>
+                    <td><input type="date" name="start_date" required></td>
+                  </tr>
+
+                  <tr>
+                    <td>End Date/Currently Working</td>
+                    <td><input type="date" name="end_date" required></td>
+                    <td><input type="checkbox" name="currently_working" required> Currently Working</td>
+                  </tr>
+
+                  <tr>
+                    <td>Years of Experience(auto-calculated or manual)</td>
+                    <td><input type="number" name="years_experience" min="0" max="50" required></td>
+                  </tr>
+
+                  <tr>
+                    <td>Years of Experience(auto-calculated or manual)</td>
+                    <td><input type="number" name="years_experience" min="0" max="50" required></td>
+                  </tr>
+
+                  <tr>
+                    <td>Location(City/State)</td>
+                    <td><input type="text" name="location"></td>
+                  </tr>
+
+                  <tr>
+                    <td>Work Description/Roles & Responsibilities</td>
+                    <td><input type="text" name="location" reqquired min="30" max="100"></td>
+                  </tr>
+
+                  <tr>
+                    <td>
+                    <lable>
+                        <button>Save</button>
+                    </lable></td>
+                
+                    <td><lable>
+                        <button >Cancel</button>
+                      </lable></td>
+                  </tr>
+
+
+                </div>
+            </table>
+        </form>
+    </body>
+</html>

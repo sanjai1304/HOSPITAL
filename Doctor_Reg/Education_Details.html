@@ -1,0 +1,99 @@
+<!<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+        <style>
+           body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height:80dvh;
+            background-color: #fff;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            padding: 50px
+            
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+            <table>
+                <div class="nav">
+
+                    <lable>
+                        <button onclick="location.href='Personal_Details.html'">Personal Details</button>
+                    </lable>  
+
+                    <lable>
+                        <button onclick="location.href='Education_Details.html'">Education Details</button>
+                    </lable>
+
+                    <lable>
+                        <button onclick="location.href='Work_Experience.html'">Work Experience</button>
+                    </lable>
+
+                    <lable>
+                        <button onclick="location.href='Doctor_Login.html'">Login Page</button>
+                    </lable>
+                   
+                  </div>
+                <h2>Education Details</h2><hr>
+              <tr>
+                <td><label for="degree">Degree:</label></td>
+                <td><input type="text"  required></td>
+              </tr>
+
+              <tr>
+                <td><label for="university">University/Institution:</label></td>
+                <td><input type="text"  required></td>
+              </tr>
+
+              <tr>
+                <td><label for="year">Year of Graduation:</label></td>
+                <td><input type="number" required></td>
+              </tr>
+
+              <tr>
+               <td><label for="registration_number">Medical Registration Number:</label></td>
+               <td> <input type="text" name="registration_number" required></td>
+              </tr>
+              
+              <tr>
+                <td> <label for="council">Medical Council/Board:</label></td>
+                <td><input type="text" required></td>
+              </tr>
+              
+              <tr>
+                <td> <label for="specialization">Specialization (if any):</label></td>
+                <td> <input type="text"></td>
+              </tr>
+
+              <tr>
+                <td> <label for="experience">Years of Experience:</label></td>
+                <td> <input type="number"  min="0"></td>
+              </tr>
+
+              <tr>
+                </td> <label for="degree_cert">Upload Degree Certificate:</label></td>
+                </td> <input type="file"  accept=".pdf,.jpg,.png,.docx"></td>
+              </tr>
+              <tr>
+                    <td><lable>
+                        <button>Save</button>
+                    </lable></td>
+
+                    <td><lable>
+                        <button>Cancel</button>
+                    </lable></td>
+                
+                    
+              </tr>
+            </tr>
+            </table>
+        </form>
+    </body>
+</html>
