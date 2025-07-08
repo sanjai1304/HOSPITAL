@@ -79,10 +79,13 @@
     .submit-btn:hover {
       background: #0063ce;
     }
+    
     @media (max-width: 992px) {
   .container-md {
     max-width: 700px;
     padding: 15px;
+    overflow: hidden;
+
   }
 
   table td {
