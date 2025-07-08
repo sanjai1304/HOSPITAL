@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hospital Maintenance Staff Details Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #fffefe;
+      color: #333;
+      padding: 20px;
+    }
+
+    .form-container {
+      background: #f9f4f4;
+      padding: 30px;
+      max-width: 600px;
+      margin: auto;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .form-container h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #2c3e50;
+    }
+
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="number"],
+    input[type="tel"],
+    select,
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      resize: vertical;
+    }
+
+    textarea {
+      height: 100px;
+    }
+
+    input[type="submit"] {
+      background-color: #27ae60;
+      color: white;
+      padding: 12px 20px;
+      margin-top: 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      width: 100%;
+      font-size: 16px;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #219150;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="form-container">
+    <h2>Maintenance Staff Details Form</h2>
+    <form>
+      <label for="staffId">Staff ID</label>
+      <input type="text" id="staffId" name="staffId" required>
+
+      <label for="fullName">Full Name</label>
+      <input type="text" id="fullName" name="fullName" required>
+
+      <label for="department">Department</label>
+      <select id="department" name="department" required>
+        <option value="">-- Select Department --</option>
+        <option value="electrical">Electrical</option>
+        <option value="plumbing">Plumbing</option>
+        <option value="janitorial">Janitorial</option>
+        <option value="hvac">HVAC</option>
+        <option value="general">General Maintenance</option>
+      </select>
+
+      <label for="phone">Contact Number</label>
+      <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="10-digit number" required>
+
+      <label for="shift">Shift Timing</label>
+      <select id="shift" name="shift" required>
+        <option value="">-- Select Shift --</option>
+        <option value="morning">Morning (6 AM - 2 PM)</option>
+        <option value="evening">Evening (2 PM - 10 PM)</option>
+        <option value="night">Night (10 PM - 6 AM)</option>
+      </select>
+
+      <label for="duties">Assigned Duties</label>
+      <textarea id="duties" name="duties" placeholder="Briefly describe the responsibilities..." required></textarea>
+
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+
+</body>
+</html>
