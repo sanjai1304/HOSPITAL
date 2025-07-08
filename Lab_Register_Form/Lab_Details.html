@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratory Form</title></title>
+    <link rel="stylesheet" href="../Lab_Register_Form/Lab_Details.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</head>
+<body>
+    <center>
+    <div class="container-md">
+       <table>
+      <tr>
+        <h2>Laboratory Details</h2>
+      </tr>
+        <td>Patient Name</td>
+        <td><input type="text" name="patient_name" required></td>
+      </tr>
+      <tr>
+        <td>Patient ID</td>
+        <td><input type="text" name="patient_id" required></td>
+      </tr>
+      <tr>
+        <td>Age</td>
+        <td><input type="text" name="age" required></td>
+      </tr>
+      <tr>
+        <td>Gender</td>
+        <td>
+          <select name="Gender" required>
+            <option value="">Select</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Test Type</td>
+        <td> 
+          <select name="test type" required>
+            <option value="">Select</option>
+            <option value="cbc">CBC (Complete Blood Count)</option>
+            <option value="blood_glucose">Blood Glucose</option>
+            <option value="lft">Liver Function Test (LFT)</option>
+            <option value="kft">Kidney Function Test (KFT)</option>
+            <option value="lipid_profile">Lipid Profile</option>
+            <option value="hiv">HIV Test</option>
+            <option value="hepatitis">Hepatitis B & C</option>
+            <option value="covid19">COVID-19 RT-PCR</option>
+            <option value="thyroid">Thyroid Profile (T3, T4, TSH)</option>
+            <option value="biopsy">Biopsy</option>
+          </select></td>
+      </tr>
+      <tr>
+        <td>Doctor's Name</td>
+        <td>
+          <select name="doctor_name" required>
+            <option value="">Select</option>
+            <option value="dr_sharma">Dr. A. K. Sharma (Physician)</option>
+            <option value="dr_verma">Dr. Neha Verma (Pediatrician)</option>
+            <option value="dr_mehta">Dr. Rajeev Mehta (Cardiologist)</option>
+            <option value="dr_kulkarni">Dr. Sunil Kulkarni (Orthopedic)</option>
+            <option value="dr_iyer">Dr. Priya Iyer (Pathologist)</option>
+            <option value="dr_nair">Dr. Rakesh Nair (Radiologist)</option>
+            <option value="dr_patel">Dr. Sneha Patel (Microbiologist)</option>
+            <option value="dr_rao">Dr. Anjali Rao (Gynecologist)</option>
+            <option value="dr_singh">Dr. Karan Singh (ENT)</option>
+            <option value="dr_desai">Dr. Manish Desai (Neurologist)</option>
+            </select>
+          </td>
+      </tr>
+      <tr>
+        <td>Smp Collection Date</td>
+        <td><input type="date" name="collection_date" required></td>
+      </tr>
+    </table>
+    <button type="submit" class="submit-btn">Submit</button>
+  </form>
+ </center>
+
+    
+</body>
+</html>
