@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>hospital</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    h2 {
+      text-align: center;
+      color: #001f4d;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    td, th {
+      padding: 8px;
+      vertical-align: top;
+    }
+      form {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 800px;
+      margin: auto;
+    }
+    .section-title {
+      background-color: #f2f2f2;
+      font-weight: bold;
+      padding: 10px;
+      margin-top: 20px;
+    }
+    .checkbox-group {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .checkbox-group label {
+      margin-right: 20px;
+      display: flex;
+      align-items: center;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Nursing Detail Form</h2>
+
+  <div class="section-title">Information details</div>
+  <table>
+    <tr>
+      <td><strong>Full name:</strong> </td> 
+      <td><strong>Date of birth:</strong> </td>
+    </tr>
+    <tr>
+      <td><strong>Phone number:</strong> </td>
+      <td><strong>Gender:</strong> </td>
+    </tr>
+    <tr>
+      <td colspan="2"><strong>Email address:</strong> </td>
+    </tr>
+    <tr>
+      <td colspan="2"><strong>Home address:</strong> </td>
+    </tr>
+    <tr>
+      <td><strong>Nursing license number:</strong> </td>
+      <td><strong>License state/country:</strong> </td>
+    </tr>
+    <tr>
+      <td colspan="2"><strong>License expiration date:</strong> </td>
+    </tr>
+  </table>
+
+  <div class="section-title">Highest level of nursing education:</div>
+  <div class="checkbox-group">
+    <label><input type="checkbox"> Associate Degree in Nursing (ADN)</label>
+    <label><input type="checkbox"> Bachelor of Science in Nursing (BSN)</label>
+    <label><input type="checkbox"> Master of Science in Nursing (MSN)</label>
+    <label><input type="checkbox"> Doctor of Nursing Practice (DNP)</label>
+    <label><input type="checkbox"> Other</label>
+  </div>
+
+  <div class="section-title">Current place of employment:</div>
+  <p>MNM Medical Center</p>
+  <table>
+    <tr>
+      <td><strong>Job title:</strong></td>
+      <td><strong>Years of nursing experience:</strong> </td>
+    </tr>
+  </table>
+
+  <div class="section-title">Specialty areas (if any):</div>
+  <div class="checkbox-group">
+    <label><input type="checkbox"> Pediatrics</label>
+    <label><input type="checkbox" > Emergency</label>
+    <label><input type="checkbox"> ICU</label>
+    <label><input type="checkbox"> Geriatrics</label>
+    <label><input type="checkbox"> Oncology</label>
+    <label><input type="checkbox"> Other</label>
+  </div>
+
+  <div class="section-title">Emergency contact information</div>
+  <table>
+    <tr>
+      <td><strong>Full name:</strong> </td>
+      <td><strong>Relationship:</strong> </td>
+      <td><strong>Phone number:</strong> </td>
+    </tr>
+  </table>
+
+  <div class="section-title">Additional information (optional)</div>
+  <p><strong>Are you interested in:</strong></p>
+  <div class="checkbox-group">
+    <label><input type="checkbox"> Continuing education</label>
+    <label><input type="checkbox"> Volunteer opportunities</label>
+    <label><input type="checkbox" > Certification programs</label>
+    <label><input type="checkbox" > Employment opportunities</label>
+  </div>
+
+  <div class="section-title">Signature</div>
+  <p><strong>Signature:</strong> </p>
+  <p><strong>Date:</strong> </p>
+
+
+</body>
+</html>
